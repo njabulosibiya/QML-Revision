@@ -1,4 +1,6 @@
-QT += quick
+QT += \
+    qml
+    quick
 
 # You can make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.
@@ -7,7 +9,9 @@ QT += quick
 SOURCES += \
         sources/main.cpp
 
-RESOURCES += resources/qml.qrc
+
+RESOURCES += \
+        qml/qml.qrc
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
