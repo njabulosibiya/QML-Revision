@@ -25,8 +25,9 @@ Window {
         }//end_greadient
 
         Button {
-        x: (root.width/2) - width/2
-        y: (root.height/2) - height/2
+        x: parent.width/2 - width/2
+        y: parent.height/2 - height/2
+        text: "test alias"
         }
     }//end_background
 }//end_main_program
