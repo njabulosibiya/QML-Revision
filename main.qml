@@ -1,6 +1,5 @@
 import QtQuick 2.15
 import QtQuick.Window 2.15
-import "qrc:/components"
 
 Window {
     id: root
@@ -22,12 +21,15 @@ Window {
                 position: 1.0
                 color: "lightgreen"
             }
-        }//end_greadient
+        }//end_gradient
 
-        Button {
-        x: parent.width/2 - width/2
-        y: parent.height/2 - height/2
-        text: "test alias"
+        RedSquare {
+            width: parent.width/2
+            height: parent.height/2
+            FlowPositioning {
+                anchors.fill: parent
+            }
         }
+
     }//end_background
 }//end_main_program
