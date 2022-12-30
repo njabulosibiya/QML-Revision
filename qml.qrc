@@ -8,5 +8,6 @@
         <file>RowPositioning.qml</file>
         <file>GridPositioning.qml</file>
         <file>FlowPositioning.qml</file>
+        <file>LayoutItems.qml</file>
     </qresource>
 </RCC>

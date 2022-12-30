@@ -6,7 +6,9 @@ Flow {
     anchors.margins: 5
     clip: true
 
-    BlueSquare {}
+    BlueSquare {
+
+    }
     BlueSquare {}
     BlueSquare {}
     BlueSquare {}

@@ -22,14 +22,8 @@ Window {
                 color: "lightgreen"
             }
         }//end_gradient
+        LayoutItems {}
 
-        RedSquare {
-            width: parent.width/2
-            height: parent.height/2
-            FlowPositioning {
-                anchors.fill: parent
-            }
-        }
 
     }//end_background
 }//end_main_program

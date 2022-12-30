@@ -5,6 +5,6 @@ Rectangle {
     id: greenSquare
     color: "green"
     width: 90
-    height: 60
+    height: 90
     border.color: Qt.lighter(color)
 }
