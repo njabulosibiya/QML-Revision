@@ -1,5 +1,7 @@
 import QtQuick 2.15
 import QtQuick.Window 2.15
+import "qrc:/QML/"
+import "qrc:/components/QML/"
 
 Window {
     id: root
@@ -10,20 +12,25 @@ Window {
 
     Rectangle {
         id: background
-        height: parent.height
-        width: parent.width
-        gradient: Gradient {
-            GradientStop {
-                position: 0.0
-                color: "green"
-            }
-            GradientStop {
-                position: 1.0
-                color: "lightgreen"
-            }
-        }//end_gradient
-        LayoutItems {}
+        anchors.fill: parent
+        color: "#F8F4EA"
+        anchors.margins: 7
 
+        TopNavBar {
+            id: navBar
+        }
 
-    }//end_background
+        MainPage {
+            anchors.top: navBar.bottom
+            anchors.horizontalCenter: parent.horizontalCenter
+            height: Window.height - navBar.height - background.anchors.margins*3
+            anchors.topMargin: background.anchors.margins
+
+            KeyPressing {
+            }
+
+        }
+
+    }
+
 }//end_main_program
