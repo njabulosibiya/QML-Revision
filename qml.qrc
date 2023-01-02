@@ -9,5 +9,14 @@
         <file>GridPositioning.qml</file>
         <file>FlowPositioning.qml</file>
         <file>LayoutItems.qml</file>
+        <file>Button.qml</file>
+        <file>InputElement.qml</file>
+        <file>TopNavBar.qml</file>
+        <file>QML/MainPage.qml</file>
+    </qresource>
+    <qresource lang="qml" prefix="/components">
+        <file>QML/LineEditV1.qml</file>
+        <file>QML/TextEditV1.qml</file>
+        <file>QML/KeyPressing.qml</file>
     </qresource>
 </RCC>
