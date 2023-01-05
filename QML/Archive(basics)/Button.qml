@@ -21,17 +21,8 @@ Item {
             font {
                 family: "poppins"
                 pixelSize: 12
-
             }//end_font
         }//end_textArea
-
-        MouseArea {
-            id: buttonClick
-            anchors.fill: parent
-            onClicked: {
-                background.color = "red"
-            }
-        }
     }//end_button
 
     DropShadow {

@@ -22,8 +22,11 @@
     <qresource prefix="/Qt QuickControls">
         <file>QML/DesktopImageViewer.qml</file>
         <file>QML/MobileImageViewer.qml</file>
+        <file>QML/StackViewPages.qml</file>
     </qresource>
     <qresource prefix="/pages">
         <file>QML/DisplayPages/Home.qml</file>
+        <file>QML/DisplayPages/ProfilePage.qml</file>
+        <file>QML/DisplayPages/AboutPage.qml</file>
     </qresource>
 </RCC>
