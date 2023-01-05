@@ -1,6 +1,7 @@
 QT += \
-    qml
-    quick
+    qml\
+    quick\
+    quickcontrols2\
 
 # You can make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.
@@ -11,6 +12,8 @@ SOURCES += \
 
 
 RESOURCES += \
+        icons.qrc \
+        images.qrc \
         qml.qrc
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
@@ -19,6 +22,8 @@ QML_IMPORT_PATH = \
                 LineEditV1.qml
                 TextEditV1.qml
                 KeyPressing.qml
+                TopNavBar.qml
+                Home.qml
 
 # Additional import path used to resolve QML modules just for Qt Quick Designer
 QML_DESIGNER_IMPORT_PATH =
