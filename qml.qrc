@@ -1,22 +1,32 @@
 <RCC>
     <qresource prefix="/">
-        <file>main.qml</file>
-        <file>RedSquare.qml</file>
-        <file>BlueSquare.qml</file>
-        <file>GreenSquare.qml</file>
-        <file>ColumnPositioning.qml</file>
-        <file>RowPositioning.qml</file>
-        <file>GridPositioning.qml</file>
-        <file>FlowPositioning.qml</file>
-        <file>LayoutItems.qml</file>
-        <file>Button.qml</file>
-        <file>InputElement.qml</file>
-        <file>TopNavBar.qml</file>
-        <file>QML/MainPage.qml</file>
+        <file>QML/main.qml</file>
     </qresource>
     <qresource lang="qml" prefix="/components">
-        <file>QML/LineEditV1.qml</file>
-        <file>QML/TextEditV1.qml</file>
-        <file>QML/KeyPressing.qml</file>
+        <file>QML/Archive(basics)/BlueSquare.qml</file>
+        <file>QML/Archive(basics)/Button.qml</file>
+        <file>QML/Archive(basics)/ColumnPositioning.qml</file>
+        <file>QML/Archive(basics)/FlowPositioning.qml</file>
+        <file>QML/Archive(basics)/GreenSquare.qml</file>
+        <file>QML/Archive(basics)/GridPositioning.qml</file>
+        <file>QML/Archive(basics)/InputElement.qml</file>
+        <file>QML/Archive(basics)/KeyPressing.qml</file>
+        <file>QML/Archive(basics)/LayoutItems.qml</file>
+        <file>QML/Archive(basics)/LineEditV1.qml</file>
+        <file>QML/Archive(basics)/MainPage.qml</file>
+        <file>QML/Archive(basics)/RedSquare.qml</file>
+        <file>QML/Archive(basics)/RowPositioning.qml</file>
+        <file>QML/Archive(basics)/TextEditV1.qml</file>
+        <file>QML/Archive(basics)/TopNavBar.qml</file>
+    </qresource>
+    <qresource prefix="/Qt QuickControls">
+        <file>QML/DesktopImageViewer.qml</file>
+        <file>QML/MobileImageViewer.qml</file>
+        <file>QML/StackViewPages.qml</file>
+    </qresource>
+    <qresource prefix="/pages">
+        <file>QML/DisplayPages/Home.qml</file>
+        <file>QML/DisplayPages/ProfilePage.qml</file>
+        <file>QML/DisplayPages/AboutPage.qml</file>
     </qresource>
 </RCC>
