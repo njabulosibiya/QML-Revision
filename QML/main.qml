@@ -3,10 +3,12 @@ import QtQuick.Controls 2.15
 
 ApplicationWindow {
     id: window
-    minimumWidth: 640
-    minimumHeight: 480
     visible: true
-    background:  Rectangle {
+    minimumHeight: 490
+    minimumWidth: 640
+    title: "Document Windows"
+    background: Rectangle {
         color: "#6C00FF"
     }
-}
+
+}//end_window
