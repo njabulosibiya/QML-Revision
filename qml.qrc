@@ -23,6 +23,7 @@
         <file>QML/DesktopImageViewer.qml</file>
         <file>QML/MobileImageViewer.qml</file>
         <file>QML/StackViewPages.qml</file>
+        <file>QML/SwipeView.qml</file>
     </qresource>
     <qresource prefix="/pages">
         <file>QML/DisplayPages/Home.qml</file>

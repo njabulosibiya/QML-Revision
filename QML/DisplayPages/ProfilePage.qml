@@ -31,12 +31,13 @@ Page {
         }
 
         Button {
+            text: "About"
             anchors.top: label.bottom
             anchors.horizontalCenter: parent.horizontalCenter
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: stackView.push("qrc:/pages/QML/DisplayPages/AboutPage.qml")
+                onClicked: stackView.setCurrentIndex(3)
             }
         }
     }
