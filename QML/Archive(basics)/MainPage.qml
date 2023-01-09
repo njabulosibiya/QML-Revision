@@ -7,6 +7,8 @@ Rectangle {
     width: Window.width - 15
     height: Window.height
     radius: 4
+    color: "transparent"
+    property alias backgroundColor: mainBG.color
     Rectangle {
         id: mainBG
         anchors.fill: parent

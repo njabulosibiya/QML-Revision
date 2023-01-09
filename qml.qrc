@@ -29,5 +29,6 @@
         <file>QML/DisplayPages/Home.qml</file>
         <file>QML/DisplayPages/ProfilePage.qml</file>
         <file>QML/DisplayPages/AboutPage.qml</file>
+        <file>QML/DisplayPages/BasicModels.qml</file>
     </qresource>
 </RCC>
