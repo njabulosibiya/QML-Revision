@@ -68,8 +68,15 @@ ApplicationWindow {
                 }
             }
             Button {
-                text: "Basic Models 3"
+                text: "Delegation"
                 width: parent.width
+                MouseArea {
+                    anchors.fill: parent
+                    onClicked: {
+                        drawer.close()
+                        stackView.push("qrc:/pages/QML/DisplayPages/Delegation.qml")
+                    }
+                }
             }
         }
 
