@@ -2,7 +2,7 @@
     <qresource prefix="/">
         <file>QML/main.qml</file>
     </qresource>
-    <qresource prefix="/components" lang="qml">
+    <qresource lang="qml" prefix="/components">
         <file>QML/Archive(basics)/BlueSquare.qml</file>
         <file>QML/Archive(basics)/Button.qml</file>
         <file>QML/Archive(basics)/ColumnPositioning.qml</file>
@@ -31,5 +31,14 @@
         <file>QML/DisplayPages/AboutPage.qml</file>
         <file>QML/DisplayPages/BasicModels.qml</file>
         <file>QML/DisplayPages/Delegation.qml</file>
+        <file>QML/DisplayPages/LAyoutController.qml</file>
+        <file>QML/DisplayPages/LayoutExample1.qml</file>
+        <file>QML/DisplayPages/LayoutExample2.qml</file>
+        <file>QML/DisplayPages/LayoutPractice1.qml</file>
+        <file>QML/DisplayPages/LayoutPractice2.qml</file>
+        <file>QML/DisplayPages/LayoutPractice3.qml</file>
+        <file>QML/DisplayPages/LayoutPractice4.qml</file>
+        <file>QML/DisplayPages/LayoutPractice5.qml</file>
+        <file>QML/DisplayPages/LayoutPractice6.qml</file>
     </qresource>
 </RCC>
