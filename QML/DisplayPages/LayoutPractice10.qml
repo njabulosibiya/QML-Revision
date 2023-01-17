@@ -6,50 +6,48 @@ import "qrc:/components/QML/Archive(basics)/"
 Page {
     title: "5 columns"
 
-    RowLayout {
-        id: page
+    ColumnLayout {
+        id: root
         anchors.fill: parent
+        anchors.margins: 2
 
         BlueSquare {
-            Layout.fillWidth: true
             Layout.fillHeight: true
-            implicitWidth: 150
+            Layout.fillWidth: true
+            implicitHeight: 200
             Text {
-                text: "width: " + parent.width + "\nheight: " + parent.height
                 anchors.centerIn: parent
+                text: "width: " + parent.width + "\nheight: " + parent.height
             }
         }
 
         GreenSquare {
-            Layout.fillWidth: true
-            implicitWidth: 500
             Layout.fillHeight: true
-            Text {
-                text: "width: " + parent.width + "\nheight: " + parent.height
-                anchors.centerIn: parent
-            }
-        }
-
-        RedSquare {
             Layout.fillWidth: true
-            implicitWidth: 150
-            Layout.fillHeight: true
+            implicitHeight: 700
             Text {
-                text: "width: " + parent.width + "\nheight: " + parent.height
                 anchors.centerIn: parent
+                text: "width: " + parent.width + "\nheight: " + parent.height
             }
         }
 
         BlueSquare {
-            Layout.fillWidth: true
-            implicitWidth: 150
             Layout.fillHeight: true
+            Layout.fillWidth: true
+            implicitHeight: 200
             Text {
-                text: "width: " + parent.width + "\nheight: " + parent.height
                 anchors.centerIn: parent
+                text: "width: " + parent.width + "\nheight: " + parent.height
             }
         }
-
-
+        BlueSquare {
+            Layout.fillHeight: true
+            Layout.fillWidth: true
+            implicitHeight: 200
+            Text {
+                anchors.centerIn: parent
+                text: "width: " + parent.width + "\nheight: " + parent.height
+            }
+        }
     }
 }

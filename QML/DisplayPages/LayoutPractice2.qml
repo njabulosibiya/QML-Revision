@@ -15,7 +15,7 @@ Page {
         BlueSquare {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            implicitWidth: 800
+            implicitWidth: 250
             Text {
                 text: "width: " + parent.width + "\nheight: " + parent.height + "\nwindow: " + window.width
                 anchors.centerIn: parent
@@ -25,19 +25,19 @@ Page {
         GreenSquare {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            implicitWidth:  200
+            implicitWidth:  250
             Text {
                 text: "width: " + parent.width + "\nheight: " + parent.height
                 anchors.centerIn: parent
             }
         }
 
-        /*
+
         RedSquare {
             Layout.fillWidth: true
             Layout.minimumWidth: 150
             Layout.fillHeight: true
-            implicitWidth: 20
+            implicitWidth: 250
             Text {
                 text: "width: " + parent.width + "\nheight: " + parent.height
                 anchors.centerIn: parent
@@ -48,11 +48,11 @@ Page {
             Layout.fillWidth: true
             Layout.minimumWidth: 150
             Layout.fillHeight: true
-            implicitWidth: 20
+            implicitWidth: 250
             Text {
                 text: "width: " + parent.width + "\nheight: " + parent.height
                 anchors.centerIn: parent
             }
-        }*/
+        }
     }
 }

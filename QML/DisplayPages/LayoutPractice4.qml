@@ -13,35 +13,22 @@ Page {
         BlueSquare {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            Layout.minimumWidth: 150
+            Layout.minimumWidth: 250
+            implicitWidth: 500
+            Text {
+                text: "width: " + parent.width + "\nheight: " + parent.height
+                anchors.centerIn: parent
+            }
         }
 
         GreenSquare {
             Layout.fillWidth: true
-            Layout.minimumWidth: 150
+            implicitWidth: 500
             Layout.fillHeight: true
-
-        }
-
-        RedSquare {
-            Layout.fillWidth: true
-            Layout.minimumWidth: 150
-            Layout.fillHeight: true
-
-        }
-
-        BlueSquare {
-            Layout.fillWidth: true
-            Layout.minimumWidth: 150
-            Layout.fillHeight: true
-
-        }
-
-        RedSquare {
-            Layout.fillWidth: true
-            Layout.minimumWidth: 150
-            Layout.fillHeight: true
-
+            Text {
+                text: "width: " + parent.width + "\nheight: " + parent.height
+                anchors.centerIn: parent
+            }
         }
     }
 }

@@ -5,25 +5,18 @@ import "qrc:/components/QML/Archive(basics)/"
 
 Page {
     title: "5 columns"
+    Layout.minimumHeight: page.implicitHeight
 
-    RowLayout {
+    ColumnLayout {
         id: page
         anchors.fill: parent
+        spacing: 0
 
         BlueSquare {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            implicitWidth: 150
-            Text {
-                text: "width: " + parent.width + "\nheight: " + parent.height
-                anchors.centerIn: parent
-            }
-        }
-
-        GreenSquare {
-            Layout.fillWidth: true
-            implicitWidth: 500
-            Layout.fillHeight: true
+            implicitHeight: 100
+            Layout.minimumHeight: 70
             Text {
                 text: "width: " + parent.width + "\nheight: " + parent.height
                 anchors.centerIn: parent
@@ -32,17 +25,18 @@ Page {
 
         RedSquare {
             Layout.fillWidth: true
-            implicitWidth: 150
+            implicitHeight: 100
             Layout.fillHeight: true
+            Layout.minimumHeight: 70
             Text {
                 text: "width: " + parent.width + "\nheight: " + parent.height
                 anchors.centerIn: parent
             }
         }
 
-        BlueSquare {
+        GreenSquare {
             Layout.fillWidth: true
-            implicitWidth: 150
+            implicitHeight: 800
             Layout.fillHeight: true
             Text {
                 text: "width: " + parent.width + "\nheight: " + parent.height

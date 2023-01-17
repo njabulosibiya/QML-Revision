@@ -6,6 +6,7 @@ import "qrc:/pages/QML/DisplayPages/"
 ApplicationWindow {
     id: window
     visible: true
+    visibility: "Maximized"
     height: 490
     width: 640
     title: "Document Windows"
