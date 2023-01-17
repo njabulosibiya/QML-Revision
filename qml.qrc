@@ -40,5 +40,15 @@
         <file>QML/DisplayPages/LayoutPractice4.qml</file>
         <file>QML/DisplayPages/LayoutPractice5.qml</file>
         <file>QML/DisplayPages/LayoutPractice6.qml</file>
+        <file>QML/DisplayPages/LayoutPractice7.qml</file>
+        <file>QML/DisplayPages/LayoutPractice8.qml</file>
+        <file>QML/DisplayPages/LayoutPractice9.qml</file>
+        <file>QML/DisplayPages/LayoutPractice10.qml</file>
+        <file>QML/DisplayPages/LayoutPractice11.qml</file>
+        <file>QML/DisplayPages/LayoutPractice12.qml</file>
+        <file>QML/DisplayPages/LayoutPractice13.qml</file>
+        <file>QML/DisplayPages/LayoutPractice14.qml</file>
+        <file>QML/DisplayPages/LayoutPractice15.qml</file>
+        <file>QML/DisplayPages/LayoutPractice16.qml</file>
     </qresource>
 </RCC>

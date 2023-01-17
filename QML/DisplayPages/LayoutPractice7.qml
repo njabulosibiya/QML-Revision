@@ -6,14 +6,24 @@ import "qrc:/components/QML/Archive(basics)/"
 Page {
     title: "5 columns"
 
-    RowLayout {
-        id: page
+    ColumnLayout {
         anchors.fill: parent
+        anchors.margins: 5
 
-        BlueSquare {
+        RedSquare {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            implicitWidth: 150
+            implicitHeight: 250
+            Text {
+                text: "width: " + parent.width + "\nheight: " + parent.height
+                anchors.centerIn: parent
+            }
+        }
+
+        BlueSquare {
+            Layout.fillHeight: true
+            Layout.fillWidth: true
+            implicitHeight: 250
             Text {
                 text: "width: " + parent.width + "\nheight: " + parent.height
                 anchors.centerIn: parent
@@ -22,18 +32,8 @@ Page {
 
         GreenSquare {
             Layout.fillWidth: true
-            implicitWidth: 500
             Layout.fillHeight: true
-            Text {
-                text: "width: " + parent.width + "\nheight: " + parent.height
-                anchors.centerIn: parent
-            }
-        }
-
-        RedSquare {
-            Layout.fillWidth: true
-            implicitWidth: 150
-            Layout.fillHeight: true
+            implicitHeight: 250
             Text {
                 text: "width: " + parent.width + "\nheight: " + parent.height
                 anchors.centerIn: parent
@@ -41,15 +41,13 @@ Page {
         }
 
         BlueSquare {
-            Layout.fillWidth: true
-            implicitWidth: 150
             Layout.fillHeight: true
+            Layout.fillWidth: true
+            implicitHeight: 250
             Text {
                 text: "width: " + parent.width + "\nheight: " + parent.height
                 anchors.centerIn: parent
             }
         }
-
-
     }
 }

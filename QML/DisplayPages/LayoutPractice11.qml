@@ -6,38 +6,38 @@ import "qrc:/components/QML/Archive(basics)/"
 Page {
     title: "5 columns"
 
-    RowLayout {
-        id: page
+    ColumnLayout {
+        id: root
+        spacing: 5
         anchors.fill: parent
 
         BlueSquare {
             Layout.fillHeight: true
             Layout.fillWidth: true
-            implicitWidth: 330
-            Layout.minimumWidth: 220
+            implicitHeight: 333
             Text {
-                text: "width: " + parent.width + "\nheight: " + parent.height
                 anchors.centerIn: parent
+                text: "width: " + parent.width + "\nheight: " + parent.height
             }
         }
 
         RedSquare {
             Layout.fillHeight: true
             Layout.fillWidth: true
-            implicitWidth: 330
+            implicitHeight: 333
             Text {
-                text: "width: " + parent.width + "\nheight: " + parent.height
                 anchors.centerIn: parent
+                text: "width: " + parent.width + "\nheight: " + parent.height
             }
         }
 
         GreenSquare {
             Layout.fillHeight: true
             Layout.fillWidth: true
-            implicitWidth: 330
+            implicitHeight: 333
             Text {
-                text: "width: " + parent.width + "\nheight: " + parent.height
                 anchors.centerIn: parent
+                text: "width: " + parent.width + "\nheight: " + parent.height
             }
         }
     }
